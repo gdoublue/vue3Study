@@ -1,0 +1,33 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1607086948671'); /* IE9 */
+  src: url('iconfont.eot?t=1607086948671#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAOYAAsAAAAACBgAAANJAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDMgqDLIJlATYCJAMQCwoABCAFhG0HVxv8BlFUTtJkX2DbsCclCsiGgXBkBOA4DLjHAD+XA4UEioMBGUQArf1v9u6+3ftiCkRxSWSSeMKjqHTzRCOKZbyavM1pKv/fsXGZcEcWfNS10OS2IyfOPln5cbwMF6EC2KLSBU44kWkIeZ5Zwgd9/lXITqzzmcZIdSq5zyGjwnld7VeFRCeo+fp8nstxy3oezm9nud3Y0VjL2jYmYBRwoHtgFFkBRZLm0DB2QUu8TUCq2ZFg4tXDM6xLmIsCwjKXK1jP2CQN5UG+ILdiZyLskyM/2h49BbA3eH/4AmlYJ5ITM++au/Qyg5N34dfOeGt2qyXxTtum84DtI8YAICGsqfQtM45yA4yl6ucmxgKpfJHoXfB+/CH5tTObReMOZE0tyRR/vEgg5DJLC8FYmE94FzgQ854g8CEhiPi1k3mWmxKQj1xsAE7B2kZiZOkyRc0U8mmuW4+a4bOjnQ+boFP9lfk7aXr+NMD/qnT2sIbyZfGRavjscQjh5qHJc/zUBvzbC/NzladnIKfPmaKr15rrS7DtsvRSvipw/HIN7mqpGj3R69L4Ijs2Gy+Os/Z+Ftb5PFibeFu4/PL7l9f2p3Vq00H+d8miovvjYaG96+UHlgc0/ys1UiM73oy/nWb2Nx9daxJbW/eLix53zpR/7CedksY9XApXQhuX8mjNmbOEcvaw9zqYS+MzMbLir/HOYHdAYNne697Ib/mZyx57+58MRrMS3anfIFPp/0V37Es01rQnicI5lB5I9B8sRepYin8UKvc1RaAKJJ4gn9MQkTxNiOXrVCSaAciRMRC58o1Bqr/r/RkV2FhICtDPG0BQ6h2RYo8RK/WhSDSfyFHtB7lKwxipxaHixIzu4DYnMCmhDPUSnelaaztlMyx/pHyoFafZQP9K7F0SkzDOF6+pJZ5ijZ/lqYhFy12DV+A+qusOe+5KMhIWIv00imzVk0LTNbBpAkYUQTJIW0KO0WlZb7TYLLz+EckNago3NFUtXxHmuclRIhR3UFxLbaemW3nEm8mlhLCQxToNdAWmkVqtg/rqaSViiFAxINObiqxhtqsULm9tXiDJ2jAvSkIU4pCEHNUTna9dRUPrrZFiaHTWzdv1GbR8yDn9RuhNAAAAAAA=') format('woff2'),
+  url('iconfont.woff?t=1607086948671') format('woff'),
+  url('iconfont.ttf?t=1607086948671') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1607086948671#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Dislikeunlikethumbdown:before {
+  content: "\f98b";
+}
+
+.icon-KeyLikes:before {
+  content: "\e731";
+}
+
+.icon-KeyLikes1:before {
+  content: "\e501";
+}
+
+.icon-Dislikeunlikethumbdown1:before {
+  content: "\e603";
+}
+
