@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div autocomplete="off">
-      <div class="finder">
+      <div :class="['finder',{active:isActive}]">
         <div class="finder__outer">
           <div class="finder__inner">
             <div class="finder__icon" ref="icon"></div>
@@ -12,6 +12,8 @@
               autocomplete="off"
               :value="currentTag"
               @input = "changeTag"
+              @blur="inputBlur"
+              @focus="inputFocus"
             />
           </div>
         </div>
@@ -21,22 +23,32 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, computed } from "vue";
+import { defineComponent, computed ,ref} from "vue";
 import store from "@/store";
 import {debounce} from "@/utils/debounce"
 export default defineComponent({
   name: "Seach",
   setup() {
+    const isActive = ref(false)
+
     const currentTag = computed(() => {
       return store.state.currentTag;
     });
     const changeTag = debounce(function (e) {
               store.setCurrentTag(e.target.value)
             },500)
-
+    const inputBlur = function () {
+      isActive.value = false
+    }
+    const inputFocus = function () {
+      isActive.value = true
+    }
     return {
       currentTag,
-        changeTag
+        changeTag,
+      inputBlur,
+      inputFocus,
+      isActive
     };
   }
 });
